@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3allam</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+            }
+
+            .heed {
+                color: antiquewhite;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin: 20px 0;
+                text-align: center;
+                text-shadow: 0 5px 7px #000000;
+                font-size: 6vw;
+            }
+
+            .header-box {
+                background-color: rgb(8, 173, 8);
+                color: black;
+                padding: 15px;
+                border-radius: 9px;
+                width: 90%;
+                margin: 0 auto;
+                box-shadow: 0 4px 8px black;
+            }
+
+            .num {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #d19718;
+                padding: 15px;
+                border-radius: 8px;
+                width: 80%;
+                margin: 15px auto;
+                text-align: center;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                font-size: 5vw;
+            }
+
+            .phot {
+                text-align: center;
+                margin: 20px 0;
+                position: relative; /* لضبط الصور الصغيرة */
+            }
+
+            .phot img.main-image {
+                max-width: 100%; /* الصورة الرئيسية تتكيف مع عرض الجهاز */
+                height: auto;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            .phot img.small-image {
+                width: 50px; /* تصغير الصورة */
+                height: auto;
+                position: absolute; /* لجعلها تطفو فوق الصورة الرئيسية */
+                top: 50%; /* وضعها في منتصف ارتفاع الصورة الرئيسية */
+                transform: translateY(-50%);
+                right: 10px; /* تثبيتها على اليمين */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            .dwn {
+                background-color: #0b9e97;
+                padding: 15px;
+                border-radius: 8px;
+                width: 90%;
+                margin: 20px auto;
+                text-align: center;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                font-size: 4vw;
+            }
+
+            /* تحسين المظهر للشاشات الصغيرة */
+            @media (max-width: 600px) {
+                .heed {
+                    font-size: 8vw;
+                }
+
+                .num {
+                    font-size: 6vw;
+                }
+
+                .dwn {
+                    font-size: 5vw;
+                }
+
+                .phot img.small-image {
+                    width: 40px; /* تصغير إضافي للشاشات الصغيرة */
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header-box">
+            <h1 class="heed">🔞 محمد علام للتعارف الجااد</h1>
+        </div>
+        <div class="num">
+            <p>010****2355 رقمي</p>
+        </div>
+        <div class="phot">
+            <a href="https://www.instagram.com/mohamed._.3llam?igsh=MTR5NHIzYzAweGxycA==">
+                <img class="main-image" src="3allam.jpg" alt="3allam.jpg">
+            </a>
+            <img class="small-image" src="todown.png" alt="todown.png">
+        </div>
+        <div class="dwn">
+            <h2>😘 للتواصل اضغط علي صورتي....مستنيكي</h2>
+        </div>
+    </body>
+</html>
